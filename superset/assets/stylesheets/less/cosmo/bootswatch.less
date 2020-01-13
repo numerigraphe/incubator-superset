@@ -158,6 +158,103 @@ table,
   }
 }
 
+// Table pivot & table
+table.table-striped.table-bordered.table-condensed td {
+    text-align: right;
+}
+
+table.table-striped.table-condensed tbody > tr > td {
+    vertical-align: middle;
+}
+
+table.table-striped.table-bordered.table-condensed th {
+    text-align: left;
+}
+
+////////////////////////////////////////////////////////////////////
+///////////////////////// PAR ID DE CHART //////////////////////////
+////////////////////////////////////////////////////////////////////
+
+///////////////// Taux de retour d'invendus (168) //////////////////
+#chart-id-168 table.dataTable thead th {
+    background-color: rgb(153, 102, 51) !important;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    color: #fff !important;
+}
+
+#chart-id-168 .table.dataTable > thead:first-child > tr:first-child > th:first-child {
+    border-right: 2px solid #fff !important;
+    border-left-color: rgb(153, 102, 51) !important;
+}
+
+#chart-id-168 .table.dataTable > thead:first-child > tr:first-child > th:last-child {
+    border-right-color: rgb(153, 102, 51) !important;
+}
+
+#chart-id-168 .table.dataTable > thead:first-child > tr:first-child > th:not(:last-child) {
+    border-right-color: #fff !important;
+}
+
+#chart-id-168 table.dataTable.table-condensed .sorting:after {
+    opacity: 0.5 !important;
+}
+
+////////////////////////////////////////////////////////////////////
+
+table.dataTable thead th {
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+}
+
+table.dataTable tbody td {
+    border-bottom-width: 0 !important;
+}
+
+table.dataTable td, table.dataTable thead th:not(:first-child) {
+    border-left-width: 0 !important;
+}
+
+table.dataTable > tbody > tr > td, table.dataTable thead th {
+    border: 1px solid #ddd;
+}
+
+.table.dataTable > thead:first-child > tr:first-child > th {
+    border-top: 1px solid #ddd !important;
+}
+
+.table.dataTable > thead:first-child > tr:first-child > th:first-child {
+    border-right: 2px solid #ddd;
+}
+
+.table.dataTable > tbody > tr > td:first-child {
+    border-left: 1px solid #ddd !important;
+    border-right: 2px solid #ddd;
+    font-weight: bold;
+}
+
+.table.dataTable > tbody > tr:last-child > td {
+    border-top: 2px solid #ddd;
+    border-bottom: 1px solid #ddd !important;
+    font-weight: bold;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) {
+    background-color: #fff;
+}
+
+table.dataTable.table-condensed .sorting:after,
+table.dataTable.table-condensed .sorting_asc:after,
+table.dataTable.table-condensed .sorting_desc:after {
+    top: 30% !important;
+    right: 6px;
+}
+
+table td {
+    background-image: none !important;
+}
+
 // Forms ======================================================================
 
 
