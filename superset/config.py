@@ -97,9 +97,10 @@ SQLALCHEMY_TRACK_MODIFICATIONS = False
 SECRET_KEY = "\2\1thisismyscretkey\1\2\e\y\y\h"
 
 # The SQLAlchemy connection string.
-SQLALCHEMY_DATABASE_URI = "sqlite:///" + os.path.join(DATA_DIR, "superset.db")
+# SQLALCHEMY_DATABASE_URI = "sqlite:///" + os.path.join(DATA_DIR, "superset.db")
 # SQLALCHEMY_DATABASE_URI = 'mysql://myapp@localhost/myapp'
 # SQLALCHEMY_DATABASE_URI = 'postgresql://root:password@localhost/myapp'
+SQLALCHEMY_DATABASE_URI = 'postgresql://superset:oriane@localhost/db_cube'
 
 # In order to hook up a custom password store for all SQLACHEMY connections
 # implement a function that takes a single argument of type 'sqla.engine.url',
@@ -140,7 +141,7 @@ PROXY_FIX_CONFIG = {"x_for": 1, "x_proto": 1, "x_host": 1, "x_port": 1, "x_prefi
 APP_NAME = "Superset"
 
 # Uncomment to setup an App icon
-APP_ICON = "/static/assets/images/superset-logo@2x.png"
+APP_ICON = "/static/assets/images/LOGO_INITIATIVES.png"
 APP_ICON_WIDTH = 126
 
 # Uncomment to specify where clicking the logo would take the user
@@ -200,7 +201,7 @@ PUBLIC_ROLE_LIKE_GAMMA = False
 # Babel config for translations
 # ---------------------------------------------------
 # Setup default language
-BABEL_DEFAULT_LOCALE = "en"
+BABEL_DEFAULT_LOCALE = "fr"
 # Your application default translation path
 BABEL_DEFAULT_FOLDER = "superset/translations"
 # The allowed translation for you app
@@ -293,13 +294,29 @@ CSV_EXPORT = {"encoding": "utf-8"}
 # time grains in superset/db_engine_specs.builtin_time_grains).
 # For example: to disable 1 second time grain:
 # TIME_GRAIN_BLACKLIST = ['PT1S']
-TIME_GRAIN_BLACKLIST: List[str] = []
+# "PT1S": "second"
+# "PT1M": "minute"
+# "PT5M": "5 minute"
+# "PT10M": "10 minute"
+# "PT15M": "15 minute"
+# "PT0.5H": "half hour"
+# "PT1H": "hour"
+# "P1D": "day"
+# "P1W": "week"
+# "P1M": "month"
+# "P0.25Y": "quarter"
+# "P1Y": "year"
+# "1969-12-28T00:00:00Z/P1W": "week_start_sunday"
+# "1969-12-29T00:00:00Z/P1W": "week_start_monday"
+# "P1W/1970-01-03T00:00:00Z": "week_ending_saturday"
+# "P1W/1970-01-04T00:00:00Z": "week_ending_sunday"
+TIME_GRAIN_BLACKLIST: List[str] = ['PT1S', 'PT1M', 'PT1H', 'P0.25Y']
 
 # Additional time grains to be supported using similar definitions as in
 # superset/db_engine_specs.builtin_time_grains.
 # For example: To add a new 2 second time grain:
 # TIME_GRAIN_ADDONS = {'PT2S': '2 second'}
-TIME_GRAIN_ADDONS: Dict[str, str] = {}
+TIME_GRAIN_ADDONS: Dict[str, str] = {'P6M': '6 mois'}
 
 # Implementation of additional time grains per engine.
 # For example: To implement 2 second time grain on clickhouse engine:
