@@ -128,7 +128,7 @@
             "Nombre de lignes à ignorer au début du fichier."
          ],
          "Rows to Read": [
-            "Rows to Read""
+            "Rows to Read"
          ],
          "Number of rows of file to read.": [
             "Nombre de lignes de fichier à lire."
@@ -776,7 +776,7 @@
             ""
          ],
          "Title": [
-            "Title"
+            "Titre"
          ],
          "click to edit title": [
             ""
@@ -785,7 +785,7 @@
             ""
          ],
          "Click to favorite/unfavorite": [
-            ""
+            "Cliquer pour mettre/enlever en favori"
          ],
          "Dismiss": [
             ""
@@ -794,130 +794,130 @@
             ""
          ],
          "Active Dashboard Filters": [
-            ""
+            "Filtres du tableau de bord actifs"
          ],
          "Checkout this dashboard: %s": [
             ""
          ],
          "Save as": [
-            ""
+            "Enregistrer comme"
          ],
          "Force Refresh": [
-            ""
+            "Forcer le rafraîchissement"
          ],
          "Force refresh the whole dashboard": [
-            ""
+            "Forcer le rafraîchissement sur tout le tableau de bord"
          ],
          "Set autorefresh": [
-            ""
+            "Définir un rafraîchissement automatique"
          ],
          "Set the auto-refresh interval for this session": [
-            ""
+            "Définir l'intervalle de rafraîchissement automatique pour cette session"
          ],
          "Save the dashboard": [
-            ""
+            "Enregistrer le tableau de bord"
          ],
          "Edit properties": [
-            ""
+            "Editer les propriétés"
          ],
          "Edit the dashboards's properties": [
-            ""
+            "Editer les propriétés du tableau de bord"
          ],
          "Email": [
-            ""
+            "Email"
          ],
          "Email a link to this dashboard": [
             ""
          ],
          "Add Charts": [
-            ""
+            "Ajouter des vues"
          ],
          "Add some charts to this dashboard": [
-            ""
+            "Ajouter des vues à ce tableau de bord"
          ],
          "Edit CSS": [
-            ""
+            "Editer le CSS"
          ],
          "Change the style of the dashboard using CSS code": [
-            ""
+            "Change le style du tableau de bord en utilisant du code CSS"
          ],
          "Load a template": [
-            ""
+            "Charger un template"
          ],
          "Load a CSS template": [
-            ""
+            "Charger un template CSS"
          ],
          "CSS": [
             "CSS"
          ],
          "Live CSS Editor": [
-            ""
+            "Editeur CSS"
          ],
          "You have unsaved changes.": [
-            ""
+            "Vous avez des changements non-sauvegardés"
          ],
          "Unsaved changes": [
-            ""
+            "Changements non-sauvegardés"
          ],
          "Don't refresh": [
-            ""
+            "Ne pas rafraîchir"
          ],
          "10 seconds": [
-            ""
+            "10 secondes"
          ],
          "30 seconds": [
-            ""
+            "30 secondes"
          ],
          "1 minute": [
-            ""
+            "1 minute"
          ],
          "5 minutes": [
-            ""
+            "5 minutes"
          ],
          "30 minutes": [
-            ""
+            "30 minutes"
          ],
          "1 hour": [
-            ""
+            "1 heure"
          ],
          "6 hours": [
-            ""
+            "6 heures"
          ],
          "12 hours": [
-            ""
+            "12 heures"
          ],
          "24 hours": [
-            ""
+            "24 heures"
          ],
          "Refresh Interval": [
-            ""
+            "Intervalle de rafraîchissement"
          ],
          "Choose the refresh frequency for this dashboard": [
-            ""
+            "Choisir la fréquence de rafraîchissement pour ce tableau de bord"
          ],
          "This dashboard was saved successfully.": [
-            ""
+            "Ce tableau de bord s'est correctement enregistré."
          ],
          "Sorry, there was an error saving this dashboard: ": [
-            ""
+            "Désolé, une erruer s'est produite lors de l'enregistrement de ce tableau de bord"
          ],
          "Error": [
-            ""
+            "Erreur"
          ],
          "You must pick a name for the new dashboard": [
-            ""
+            "Vous devez choisir un nom pour le nouveau tableau de bord"
          ],
          "Save Dashboard": [
-            ""
+            "Enregistrer le tableau de bord"
          ],
          "Overwrite Dashboard [%s]": [
-            ""
+            "Ecraser le tableau de bord [%s]"
          ],
          "Save as:": [
-            ""
+            "Enregistrer comme"
          ],
          "[dashboard name]": [
-            ""
+            "[nom du tableau de bord]"
          ],
          "Sorry, there was an error fetching charts to this dashboard: ": [
             ""
@@ -938,16 +938,16 @@
             "Modifié"
          ],
          "Add a new chart to the dashboard": [
-            ""
+            "Ajouter une nouvelle vue au tableaud e bord"
          ],
          "Add Charts to Dashboard": [
-            ""
+            "Ajouter des vues au tableau de bord"
          ],
          "Served from data cached %s . Click to force refresh.": [
             ""
          ],
          "Force refresh data": [
-            ""
+            "Forcer le rafraîchissement des données"
          ],
          "Annotation layers are still loading.": [
             ""
@@ -956,37 +956,37 @@
             ""
          ],
          "Move chart": [
-            ""
+            "Déplacer la vue"
          ],
          "Toggle chart description": [
             ""
          ],
          "Edit chart": [
-            ""
+            "Editer la vue"
          ],
          "Export CSV": [
-            ""
+            "Exporter en CSV"
          ],
          "Explore chart": [
-            ""
+            "Voir la vue"
          ],
          "Remove chart from dashboard": [
-            ""
+            "Supprimer la vue du tableau de bord"
          ],
          "A reference to the [Time] configuration, taking granularity into account": [
             ""
          ],
          "Group by": [
-            ""
+            "Grouper par"
          ],
          "One or many controls to group by": [
-            ""
+            "Un ou plusieurs contrôles à grouper par"
          ],
          "Metrics": [
-            ""
+            "Métriques"
          ],
          "One or many metrics to display": [
-            ""
+            "Un ou plusieurs métriques à afficher"
          ],
          "Metric": [
             "Métrique"
@@ -1004,7 +1004,7 @@
             "Type de visualisation"
          ],
          "The type of visualization to display": [
-            ""
+            "Le type de visualisation à afficher"
          ],
          "Percentage Metrics": [
             ""
@@ -2471,55 +2471,55 @@
             "Largeur"
          ],
          "Export to .json": [
-            ""
+            "Exporter en .json"
          ],
          "Export to .csv format": [
-            ""
+            "Exporter au format .csv"
          ],
          "%s - untitled": [
-            ""
+            "%s - sans nom"
          ],
          "Edit chart properties": [
-            ""
+            "Editer les propriétés de la vue"
          ],
          "Limit reached": [
-            ""
+            "Limite atteinte"
          ],
          "Please enter a chart name": [
-            ""
+            "Merci de saisir un nom pour la vue"
          ],
          "Please select a dashboard": [
-            ""
+            "Merci de sélectionner un tableau de bord"
          ],
          "Please enter a dashboard name": [
-            ""
+            "Merci de saisir un nom pour le tableau de bord"
          ],
          "Save A Chart": [
-            ""
+            "Enregistrer une vue"
          ],
          "Overwrite chart %s": [
-            ""
+            "Ecraser la vue %s"
          ],
          "[chart name]": [
-            ""
+            "[nom de la vue]"
          ],
          "Do not add to a dashboard": [
-            ""
+            "Ne pas ajouter à un tableau de bord"
          ],
          "Add chart to existing dashboard": [
-            ""
+            "Ajouter la vue à un tableau de bord existant"
          ],
          "Add to new dashboard": [
-            ""
+            "Ajouter à un nouveau tableau de bord"
          ],
          "Save & go to dashboard": [
-            ""
+            "Enregistrer et voir le tableau de bord"
          ],
          "choose a column or metric": [
-            ""
+            "Choisir une colomne ou un métrique"
          ],
          "Add Annotation Layer": [
-            ""
+            "Ajouter une couche d'annotations"
          ],
          "`Min` value should be numeric or empty": [
             ""
@@ -2537,10 +2537,10 @@
             ""
          ],
          "Select a datasource": [
-            ""
+            "Choisir une source de données"
          ],
          "Search / Filter": [
-            ""
+            "Chercher / Filtrer"
          ],
          "Click to point to another datasource": [
             ""
@@ -2552,25 +2552,25 @@
             ""
          ],
          "Select metric": [
-            ""
+            "Sélectionner le métrique"
          ],
          "Select column": [
-            ""
+            "Sélectionner la colomne"
          ],
          "Select operator": [
-            ""
+            "Sélectionner l'opérateur"
          ],
          "Add Filter": [
             "Ajouter un filtre"
          ],
          "choose a column or aggregate function": [
-            ""
+            "Choisir une colomne ou une fonction d'aggrégation"
          ],
          "Error while fetching data": [
-            ""
+            "Erreur rencontrée en récupérant les données"
          ],
          "No results found": [
-            ""
+            "Pas de résultats trouvés"
          ],
          "%s option(s)": [
             ""
@@ -2627,7 +2627,7 @@
             "Tableaux de bords"
          ],
          "Charts": [
-            ""
+            "Vues"
          ],
          "No favorite charts yet, go click on stars!": [
             ""
@@ -3002,13 +3002,13 @@
             "Test de connexion"
          ],
          "Annotation Layers": [
-            ""
+            "Couches d'annotation"
          ],
          "Manage": [
             "Gestion"
          ],
          "Annotations": [
-            ""
+            "Annotations"
          ],
          "Datasource %(name)s already exists": [
             "La source de données %(name)s existe déjà"
@@ -3017,10 +3017,10 @@
             "Le json n'est pas valide"
          ],
          "Export to YAML": [
-            ""
+            "Exporter en YAML"
          ],
          "Export to YAML?": [
-            ""
+            "Exporter en YAML ?"
          ],
          "Delete": [
             "Effacer"
@@ -3029,7 +3029,7 @@
             "Vraiment tout effacer ?"
          ],
          "This endpoint requires the `all_datasource_access` permission": [
-            "Cet endpoint nécessite la permission `all_datasource_access`"
+            "Ce point nécessite la permission `all_datasource_access`"
          ],
          "The datasource seems to have been deleted": [
             "La source de données semble avoir été effacée"
@@ -3149,16 +3149,16 @@
             "Sécurité"
          ],
          "List Charts": [
-            ""
+            "Lister les vues"
          ],
          "Show Chart": [
-            ""
+            "Montrer la vue"
          ],
          "Add Chart": [
-            ""
+            "Ajouter une vue"
          ],
          "Edit Chart": [
-            ""
+            "Editer la vue"
          ],
          "These parameters are generated dynamically when clicking the save or overwrite button in the explore view. This JSON object is exposed here for reference and for power users who may want to alter specific parameters.": [
             "Ces paramètres sont généré dynamiquement quand vous cliquez sur Sauvegarder ou forcer dans la page d'exploration. Cet objet JSON est exposé ici comme une référence et pour les experts qui voudraient modifier des paramètres"
@@ -3176,7 +3176,7 @@
             "Paramètres"
          ],
          "Chart": [
-            ""
+            "Vue"
          ],
          "List Dashboards": [
             "Lister les tableaux de bords"
@@ -3251,22 +3251,22 @@
             ""
          ],
          "alter this ": [
-            ""
+            "Modifier ce(tte)"
          ],
          "chart": [
-            ""
+            "vue"
          ],
          "create a ": [
-            ""
+            "Créer un(e)"
          ],
          "dashboard": [
-            ""
+            "tableau de bord"
          ],
          "Malformed request. slice_id or table_name and db_name arguments are expected": [
             "Requête malformée. Les arguments slice_id ou table_name et db_name sont attendus"
          ],
          "Chart %(id)s not found": [
-            ""
+            "Vue %(id)s introuvable"
          ],
          "Table %(t)s wasn't found in the database %(d)s": [
             "Table %(t)s pas trouvée dans la base de données %(d)s"
