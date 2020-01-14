@@ -94,13 +94,16 @@ SQLALCHEMY_TRACK_MODIFICATIONS = False
 # ---------------------------------------------------------
 
 # Your App secret key
-SECRET_KEY = "\2\1thisismyscretkey\1\2\e\y\y\h"
+SECRET_KEY = "\2\1AhDE5gL:6Dk;ET=b9v?\1\2\e\y\y\h"
+
+# Configuration file for Superset database connection
+SUPERSET_CONFIG_FILE = os.path.basename('/etc/superset-password.py')
 
 # The SQLAlchemy connection string.
 # SQLALCHEMY_DATABASE_URI = "sqlite:///" + os.path.join(DATA_DIR, "superset.db")
 # SQLALCHEMY_DATABASE_URI = 'mysql://myapp@localhost/myapp'
 # SQLALCHEMY_DATABASE_URI = 'postgresql://root:password@localhost/myapp'
-SQLALCHEMY_DATABASE_URI = 'postgresql://superset:oriane@localhost/db_cube'
+SQLALCHEMY_DATABASE_URI = 'postgresql://{}:{}@{}/{}'.format(SUPERSET_CONFIG_FILE.POSTGRESQL_USER_SUPERSET, SUPERSET_CONFIG_FILE.POSTGRESQL_PASSWORD_SUPERSET, SUPERSET_CONFIG_FILE.POSTGRESQL_HOST_SUPERSET, SUPERSET_CONFIG_FILE.POSTGRESQL_DEFAULT_DB_SUPERSET)
 
 # In order to hook up a custom password store for all SQLACHEMY connections
 # implement a function that takes a single argument of type 'sqla.engine.url',
